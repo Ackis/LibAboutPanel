@@ -14,10 +14,9 @@
 
 ## X-Category: Libraries
 ## X-Localizations: enUS
-## X-Website: 
-## X-Feedback: 
-## X-AceForum: 
-## X-RelSite-Curse: 
+## X-Website: http://www.wowwiki.com/LibAboutPanel
+## X-Feedback: http://wow.curseforge.com/projects/libaboutpanel/
+## X-RelSite-Curse: 13459
 ## X-RelSite-WoWI: 
 ## X-RelSite-WoWUI: 
 
