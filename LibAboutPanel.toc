@@ -1,4 +1,4 @@
-﻿## Title: Lib About Panel
+﻿## Title: Lib: AboutPanel
 
 ## Notes: Adds an about panel to interface options.
 
