@@ -5,8 +5,8 @@
 
 ## Author: Tekkub, Ackis
 
-## Interface: 3000
-## Version: 1.11
+## Interface: 30000
+## Version: 1.111
 ## X-Revision: $Rev$
 ## X-Date: $Date$
 
