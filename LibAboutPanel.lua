@@ -1,4 +1,4 @@
---[[
+﻿--[[
 ****************************************************************************************
 LibAboutPanel
 $Date$
@@ -74,7 +74,7 @@ if GAME_LOCALE == "enUS" then
 	L["About"] = true
 	L["Click and press Ctrl-C to copy"] = true
 elseif GAME_LOCALE == "frFR" then
-	L["About"] = "� propos de"
+	L["About"] = "à propos de"
 	L["Click and press Ctrl-C to copy"] = true
 end
 
