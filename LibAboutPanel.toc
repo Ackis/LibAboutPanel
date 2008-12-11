@@ -2,13 +2,12 @@
 
 ## Notes: Adds an about panel to interface options.
 
-
 ## Author: Tekkub, Ackis
 
 ## Interface: 30000
-## Version: 1.111
-## X-Revision: $Rev$
-## X-Date: $Date$
+## Version: 1.2
+## X-Revision: @project-revision@
+## X-Date: @file-date-iso@
 
 ## X-credits: 
 
