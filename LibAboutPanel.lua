@@ -126,7 +126,7 @@ end
 
 
 local fields = {"Version", "Author", "X-Category", "X-License", "X-Email", "X-Website", "X-Credits", "X-Localizations", "X-Donate"}
-local haseditbox = {["Version"] = true, ["X-Website"] = true, ["X-Email"] = true}
+local haseditbox = {["Version"] = true, ["X-Website"] = true, ["X-Email"] = true, ["X-Donate"] = true}
 local function HideTooltip() GameTooltip:Hide() end
 local function ShowTooltip(self)
 	GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT")
