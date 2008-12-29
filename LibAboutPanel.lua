@@ -1,11 +1,15 @@
 ﻿--[[
+
 ****************************************************************************************
 LibAboutPanel
-$Date$
-$Rev$
+
+File date: @file-date-iso@ 
+File revision: @file-revision@ 
+Project revision: @project-revision@
+Project version: @project-version@
 
 Author: Tekkub
-Modifications: Ackis on Illidan US Horde
+Modifications: Ackis
 
 ****************************************************************************************
 
@@ -127,13 +131,17 @@ end
 
 local fields = {"Version", "Author", "X-Category", "X-License", "X-Email", "X-Website", "X-Credits", "X-Localizations", "X-Donate"}
 local haseditbox = {["Version"] = true, ["X-Website"] = true, ["X-Email"] = true, ["X-Donate"] = true}
+
 local function HideTooltip() GameTooltip:Hide() end
+
 local function ShowTooltip(self)
 	GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT")
 	--GameTooltip:SetText(L["Click and press Ctrl-C to copy"])
 	GameTooltip:SetText("Click and press Ctrl-C to copy")
 end
+
 function lib.OnShow(frame)
+
 --[[
 	local notefield = "Notes"
 
@@ -207,4 +215,5 @@ function lib.OnShow(frame)
 			anchor = title
 		end
 	end
+
 end
