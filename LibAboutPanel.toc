@@ -22,6 +22,7 @@
 ## DefaultState: Enabled
 ## LoadOnDemand: 0
 
-embeds.xml
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
 
 LibAboutPanel.lua
