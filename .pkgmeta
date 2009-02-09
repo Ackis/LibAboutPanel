@@ -4,7 +4,9 @@ package-as: LibAboutPanel
 # File list to ignore:
 ignore:
  - .pkgmeta
+ - .docmeta
  - libs/dlcount
+ - Docs
 
 # Listing of externals:
 externals:

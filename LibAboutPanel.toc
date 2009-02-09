@@ -9,8 +9,6 @@
 ## X-Revision: @project-revision@
 ## X-Date: @file-date-iso@
 
-## X-credits: 
-
 ## X-Category: Libraries
 ## X-Localizations: enUS
 ## X-Website: http://www.wowwiki.com/LibAboutPanel
