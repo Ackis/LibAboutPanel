@@ -5,7 +5,6 @@ package-as: LibAboutPanel
 ignore:
  - .pkgmeta
  - .docmeta
- - libs/dlcount
  - Docs
 
 # Listing of externals:
@@ -16,5 +15,3 @@ externals:
  libs/CallbackHandler-1.0:
     url: svn://svn.wowace.com/wow/callbackhandler/mainline/trunk/CallbackHandler-1.0
     tag: latest
- libs/dlcount:
-  url: svn://svn.curseforge.net/wow/dlcount/mainline/trunk

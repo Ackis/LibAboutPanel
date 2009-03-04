@@ -5,8 +5,8 @@
 ## Author: Tekkub, Ackis
 
 ## Interface: 30000
-## Version: 1.31
-## X-Revision: @project-revision@
+## Version: 1.32
+## X-Revision: @project-version@
 ## X-Date: @file-date-iso@
 
 ## X-Category: Libraries
