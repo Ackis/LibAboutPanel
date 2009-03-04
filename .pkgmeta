@@ -1,6 +1,8 @@
 # Package file as:
 package-as: LibAboutPanel
 
+license-output: LICENSE.txt
+
 # File list to ignore:
 ignore:
  - .pkgmeta
