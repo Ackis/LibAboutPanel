@@ -5,49 +5,10 @@ LibAboutPanel
 
 File date: @file-date-iso@ 
 File revision: @file-revision@ 
-Project revision: @project-revision@
 Project version: @project-version@
 
 Author: Tekkub
 Modifications: Ackis
-
-****************************************************************************************
-
-This library will add an about panel to your Blizzard interface options.  You can specify whether or not
-to have the panel linked to a main panel, or just have it created seperately.  It will populate the fields of
-the about panel from the fields located in your ToC.  To create the about panel, just add the following
-line of code into your mod:
-
-LibStub("LibAboutPanel").new(parentframe, addonname)
-
-It will also return the frame so you can call it like:
-
-frame = LibStub("LibAboutPanel").new(parentframe, addonname)
-
-The parentframe option may be nil, in which case it will not anchor the about panel to any frame.
-Otherwise, it will anchor the about frame to that frame.
-
-The second option is the name of your add-on.  This is manditory as the about panel will pull all
-information from this add-ons ToC.
-
-The ToC fields which the add-on reads are:
-
-"Notes"
-"Version"
-"Author"
-"X-Author-Faction"
-"X-Author-Server"
-"X-Category"
-"X-License"
-"X-Email"
-"X-Website"
-"X-Credits"
-"X-Localizations"
-"X-Donate"
-
-It will only read fields when they exist, and skip them if they do not exist.
-
-Currently it will not read localization versions of fields all fields.
 
 ****************************************************************************************
 ]]--

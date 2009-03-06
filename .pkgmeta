@@ -1,15 +1,12 @@
-# Package file as:
 package-as: LibAboutPanel
 
 license-output: LICENSE.txt
 
-# File list to ignore:
 ignore:
  - .pkgmeta
  - .docmeta
  - Docs
 
-# Listing of externals:
 externals:
  libs/LibStub:
   url: svn://svn.wowace.com/wow/libstub/mainline/trunk
