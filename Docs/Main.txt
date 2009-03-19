@@ -16,7 +16,7 @@ It will also return the frame so you can call it like:
 
 The parentframe option may be nil, in which case it will not anchor the about panel to any frame. Otherwise, it will anchor the about frame to that frame.
 
-The second option is the name of your add-on. This is manditory as the about panel will pull all information from this add-ons ToC.
+The second option is the name of your add-on. This is mandatory as the about panel will pull all information from this add-ons ToC.
 
 The ToC fields which the add-on reads are:
 
