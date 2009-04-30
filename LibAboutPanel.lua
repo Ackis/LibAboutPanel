@@ -2,12 +2,10 @@
 ****************************************************************************************
 LibAboutPanel
 
-File date: @file-date-iso@ 
-File revision: @file-revision@ 
-Project version: @project-version@
+Revision: @project-revision@
+Date: @file-date-iso@
 
-Author: Tekkub
-Modifications: Ackis
+Author: Tekkub, Ackis
 
 ****************************************************************************************
 ]]--
