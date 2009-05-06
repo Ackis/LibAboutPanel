@@ -35,9 +35,18 @@ local L = {}
 if GAME_LOCALE == "enUS" then
 	L["About"] = true
 	L["Click and press Ctrl-C to copy"] = true
+-- frFR
 elseif GAME_LOCALE == "frFR" then
 	L["About"] = "à propos de"
 	L["Click and press Ctrl-C to copy"] = true
+-- zhCN
+elseif GAME_LOCALE == "zhCN" then
+	L["About"] = "关于"
+	L["Click and press Ctrl-C to copy"] = "点击并 Ctrl-C 复制"
+-- zhTW
+elseif GAME_LOCALE == "zhTW" then
+	L["About"] = "關于"
+	L["Click and press Ctrl-C to copy"] = "點擊并 Ctrl-C 復制"
 end
 
 ]]--
