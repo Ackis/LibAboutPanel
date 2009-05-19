@@ -2,8 +2,10 @@
 ****************************************************************************************
 LibAboutPanel
 
-Revision: @project-revision@
-Date: @file-date-iso@
+File date: @file-date-iso@
+File revision: @file-revision@
+Project revision: @project-revision@
+Project version: @project-version@
 
 Author: Tekkub, Ackis
 
@@ -26,17 +28,10 @@ end
 
 local GAME_LOCALE = GetLocale()
 
-if GAME_LOCALE ~= "frFR" then
-	GAME_LOCALE = "enUS"
-end
-
 local L = {}
 
-if GAME_LOCALE == "enUS" then
-	L["About"] = true
-	L["Click and press Ctrl-C to copy"] = true
 -- frFR
-elseif GAME_LOCALE == "frFR" then
+if GAME_LOCALE == "frFR" then
 	L["About"] = "à propos de"
 	L["Click and press Ctrl-C to copy"] = true
 -- zhCN
@@ -47,6 +42,10 @@ elseif GAME_LOCALE == "zhCN" then
 elseif GAME_LOCALE == "zhTW" then
 	L["About"] = "關于"
 	L["Click and press Ctrl-C to copy"] = "點擊并 Ctrl-C 復制"
+-- enUS and non-localized
+else
+	L["About"] ="About"
+	L["Click and press Ctrl-C to copy"] = "Click and press Ctrl-C to copy"
 end
 
 ]]--
@@ -103,13 +102,12 @@ local function HideTooltip() GameTooltip:Hide() end
 
 local function ShowTooltip(self)
 	GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT")
-	--GameTooltip:SetText(L["Click and press Ctrl-C to copy"])
-	GameTooltip:SetText("Click and press Ctrl-C to copy")
+	GameTooltip:SetText(L["Click and press Ctrl-C to copy"])
+	--GameTooltip:SetText("Click and press Ctrl-C to copy")
 end
 
 function lib.OnShow(frame)
 
---[[
 	local notefield = "Notes"
 
 	if (GAME_LOCALE ~= "enUS") then
@@ -117,13 +115,13 @@ function lib.OnShow(frame)
 	end
 
 	local notes = GetAddOnMetadata(frame.addonname, notefield) or GetAddOnMetadata(frame.addonname, "Notes")
-]]--
 
-	local notes = GetAddOnMetadata(frame.addonname, "Notes")
+	--local notes = GetAddOnMetadata(frame.addonname, "Notes")
 
 	local title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
 	title:SetPoint("TOPLEFT", 16, -16)
-	title:SetText(frame.parent and (frame.parent.." - About") or frame.name)
+	--title:SetText(frame.parent and (frame.parent.." - About") or frame.name)
+	title:SetText(frame.parent and (frame.parent.." - " .. L["About"]) or frame.name)
 
 	local subtitle = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
 	subtitle:SetHeight(32)

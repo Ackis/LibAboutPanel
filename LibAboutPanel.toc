@@ -2,10 +2,10 @@
 
 ## Notes: Adds an about panel to interface options.
 
-## Author: Tekkub, Ackis
+## Author: Ackis, Tekkub
 
 ## Interface: 30100
-## Version: 1.33
+## Version: 1.4
 ## X-Revision: @project-revision@
 ## X-Date: @file-date-iso@
 
