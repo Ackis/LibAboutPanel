@@ -112,7 +112,7 @@ end
 
 
 local fields = {"Version", "Author", "X-Category", "X-License", "X-Email", "Email", "eMail", "X-Website", "X-Credits", "X-Localizations", "X-Donate"}
-local haseditbox = {["Version"] = true, ["X-Website"] = true, ["X-Email"] = true, ["X-Donate"] = true, ["Email"] = true, ["eMail"] = true}
+local haseditbox = {["X-Website"] = true, ["X-Email"] = true, ["X-Donate"] = true, ["Email"] = true, ["eMail"] = true}
 
 local function HideTooltip() GameTooltip:Hide() end
 
@@ -178,7 +178,7 @@ function lib.OnShow(frame)
 				end
 			elseif (field == "Version") then
 				local addonversion = GetAddOnMetadata("AckisRecipeList", "Version")
-				addonversion = string.gsub(addonversion,"@project.revision@","Repo")
+				addonversion = string.gsub(addonversion,"@project.revision@","Repository")
 				detail:SetText((haseditbox[field] and "|cff9999ff" or "").. addonversion)
 			else
 				detail:SetText((haseditbox[field] and "|cff9999ff" or "").. val)

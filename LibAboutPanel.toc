@@ -2,7 +2,11 @@
 
 ## Notes: Adds an about panel to interface options.
 
-## Author: Ackis, Tekkub
+## Author: Ackis
+## eMail: ackis AT shaw DOT ca
+##X-Author-Faction = Horde
+##X-Author-Server = Thunderlord US
+## X-Donate: http://www.curseforge.com/projects/libaboutpanel/#w_donations
 
 ## Interface: 30100
 ## Version: 1.4
