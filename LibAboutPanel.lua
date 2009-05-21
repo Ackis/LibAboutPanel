@@ -24,8 +24,6 @@ function lib.new(parent, addonname)
 	return frame
 end
 
---[[
-
 local GAME_LOCALE = GetLocale()
 
 local L = {}
@@ -47,8 +45,6 @@ else
 	L["About"] ="About"
 	L["Click and press Ctrl-C to copy"] = "Click and press Ctrl-C to copy"
 end
-
-]]--
 
 local editbox = CreateFrame('EditBox', nil, UIParent)
 editbox:Hide()
