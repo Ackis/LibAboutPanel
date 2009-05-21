@@ -4,8 +4,6 @@
 LibAboutPanel
 
 File date: @file-date-iso@
-File revision: @file-revision@
-Project revision: @project-revision@
 Project version: @project-version@
 
 Author: Tekkub, Ackis
@@ -132,13 +130,11 @@ function lib.OnShow(frame)
 		notefield = notefield .. "-" .. GAME_LOCALE
 	end
 
+	-- Get the localized version of notes if it exists or fall back to the english one.
 	local notes = GetAddOnMetadata(frame.addonname, notefield) or GetAddOnMetadata(frame.addonname, "Notes")
-
-	--local notes = GetAddOnMetadata(frame.addonname, "Notes")
 
 	local title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
 	title:SetPoint("TOPLEFT", 16, -16)
-	--title:SetText(frame.parent and (frame.parent.." - About") or frame.name)
 	title:SetText(frame.parent and (frame.parent.." - " .. L["About"]) or frame.name)
 
 	local subtitle = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
@@ -168,7 +164,6 @@ function lib.OnShow(frame)
 			detail:SetJustifyH("LEFT")
 
 			if (field == "Author") then
-
 				local authorservername = GetAddOnMetadata(frame.addonname, "X-Author-Server")
 				local authorfaction = GetAddOnMetadata(frame.addonname, "X-Author-Faction")
 
@@ -181,7 +176,10 @@ function lib.OnShow(frame)
 				else
 					detail:SetText((haseditbox[field] and "|cff9999ff" or "").. val)
 				end
-
+			elseif (field == "Version") then
+				local addonversion = GetAddOnMetadata("AckisRecipeList", "Version")
+				addonversion = string.gsub(addonversion,"@project.revision@","Repo")
+				detail:SetText((haseditbox[field] and "|cff9999ff" or "").. addonversion)
 			else
 				detail:SetText((haseditbox[field] and "|cff9999ff" or "").. val)
 			end
