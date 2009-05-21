@@ -1,4 +1,5 @@
 ﻿--[[
+
 ****************************************************************************************
 LibAboutPanel
 
@@ -10,6 +11,7 @@ Project version: @project-version@
 Author: Tekkub, Ackis
 
 ****************************************************************************************
+
 ]]--
 
 local lib, oldminor = LibStub:NewLibrary("LibAboutPanel", 1)
@@ -31,7 +33,27 @@ local L = {}
 -- frFR
 if GAME_LOCALE == "frFR" then
 	L["About"] = "à propos de"
-	L["Click and press Ctrl-C to copy"] = true
+	L["Click and press Ctrl-C to copy"] = "Click and press Ctrl-C to copy"
+-- deDE
+elseif GAME_LOCALE == "deDE" then
+	L["About"] = "Über"
+	L["Click and press Ctrl-C to copy"] = "Klicken und Strg-C drücken zum kopieren"
+-- esES
+elseif GAME_LOCALE == "esES" then
+	L["About"] = "Acerca de"
+	L["Click and press Ctrl-C to copy"] = "Click and press Ctrl-C to copy"
+-- esMX
+elseif GAME_LOCALE == "esMX" then
+	L["About"] = "Sobre"
+	L["Click and press Ctrl-C to copy"] = "Click and press Ctrl-C to copy"
+-- koKR
+elseif GAME_LOCALE == "koKR" then
+	L["About"] = "대하여"
+	L["Click and press Ctrl-C to copy"] = "Click and press Ctrl-C to copy"
+-- ruRU
+elseif GAME_LOCALE == "ruRU" then
+	L["About"] = "Об аддоне"
+	L["Click and press Ctrl-C to copy"] = "Click and press Ctrl-C to copy"
 -- zhCN
 elseif GAME_LOCALE == "zhCN" then
 	L["About"] = "关于"
