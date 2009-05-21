@@ -12,7 +12,7 @@ Author: Tekkub, Ackis
 
 ]]--
 
-local lib, oldminor = LibStub:NewLibrary("LibAboutPanel", 1)
+local lib, oldminor = LibStub:NewLibrary("LibAboutPanel", 2)
 if not lib then return end
 
 function lib.new(parent, addonname)
