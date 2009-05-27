@@ -3,8 +3,8 @@
 ****************************************************************************************
 LibAboutPanel
 
-File date: @file-date-iso@
-Project version: @project-version@
+File date: 2009-05-21T18:23:00Z
+Project version: v1.4
 
 Author: Tekkub, Ackis
 
@@ -177,8 +177,8 @@ function lib.OnShow(frame)
 					detail:SetText((haseditbox[field] and "|cff9999ff" or "").. val)
 				end
 			elseif (field == "Version") then
-				local addonversion = GetAddOnMetadata("AckisRecipeList", "Version")
-				addonversion = string.gsub(addonversion,"@project.revision@","Repository")
+				local addonversion = GetAddOnMetadata(frame.addonname, field)
+--				addonversion = string.gsub(addonversion,"@project.revision@","Repository")
 				detail:SetText((haseditbox[field] and "|cff9999ff" or "").. addonversion)
 			else
 				detail:SetText((haseditbox[field] and "|cff9999ff" or "").. val)
