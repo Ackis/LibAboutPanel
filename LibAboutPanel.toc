@@ -9,7 +9,7 @@
 ## X-Donate: http://www.curseforge.com/projects/libaboutpanel/#w_donations
 
 ## Interface: 30100
-## Version: 1.4
+## Version: 1.41
 ## X-Revision: @project-revision@
 ## X-Date: @file-date-iso@
 
