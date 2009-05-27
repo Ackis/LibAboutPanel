@@ -3,8 +3,8 @@
 ****************************************************************************************
 LibAboutPanel
 
-File date: 2009-05-21T18:23:00Z
-Project version: v1.4
+File date: @file-date-iso@
+Project version: @project-version@
 
 Author: Tekkub, Ackis
 
@@ -178,7 +178,8 @@ function lib.OnShow(frame)
 				end
 			elseif (field == "Version") then
 				local addonversion = GetAddOnMetadata(frame.addonname, field)
---				addonversion = string.gsub(addonversion,"@project.revision@","Repository")
+				-- Remove @project-revision@ and replace it with Repository
+				addonversion = string.gsub(addonversion,"@project.revision@","Repository")
 				detail:SetText((haseditbox[field] and "|cff9999ff" or "").. addonversion)
 			else
 				detail:SetText((haseditbox[field] and "|cff9999ff" or "").. val)
