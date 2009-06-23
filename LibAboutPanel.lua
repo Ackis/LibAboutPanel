@@ -58,8 +58,8 @@ elseif GAME_LOCALE == "zhCN" then
 	L["Click and press Ctrl-C to copy"] = "点击并 Ctrl-C 复制"
 -- zhTW
 elseif GAME_LOCALE == "zhTW" then
-	L["About"] = "關于"
-	L["Click and press Ctrl-C to copy"] = "點擊并 Ctrl-C 復制"
+	L["About"] = "關於"
+	L["Click and press Ctrl-C to copy"] = "點擊並 Ctrl-C 復制"
 -- enUS and non-localized
 else
 	L["About"] ="About"
