@@ -47,7 +47,7 @@ elseif GAME_LOCALE == "esMX" then
 -- koKR
 elseif GAME_LOCALE == "koKR" then
 	L["About"] = "대하여"
-	L["Click and press Ctrl-C to copy"] = "Click and press Ctrl-C to copy"
+	L["Click and press Ctrl-C to copy"] = "클릭 후 Ctrl-C 복사"
 -- ruRU
 elseif GAME_LOCALE == "ruRU" then
 	L["About"] = "Об аддоне"
