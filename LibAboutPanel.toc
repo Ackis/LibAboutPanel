@@ -4,11 +4,11 @@
 
 ## Author: Ackis
 ## eMail: ackis AT shaw DOT ca
-##X-Author-Faction = Alliance
-##X-Author-Server = Thunderlord US
+##X-Author-Faction = Horde
+##X-Author-Server = Hyjal US
 ## X-Donate: http://www.curseforge.com/projects/libaboutpanel/#w_donations
 
-## Interface: 50001
+## Interface: 50200
 ## Version: @project-version@
 ## X-Revision: @project-revision@
 ## X-Date: @file-date-iso@
