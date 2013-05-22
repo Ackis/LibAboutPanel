@@ -8,7 +8,7 @@
 ##X-Author-Server = Hyjal US
 ## X-Donate: http://www.curseforge.com/projects/libaboutpanel/#w_donations
 
-## Interface: 50200
+## Interface: 50300
 ## Version: @project-version@
 ## X-Revision: @project-revision@
 ## X-Date: @file-date-iso@
