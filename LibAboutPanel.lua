@@ -20,7 +20,6 @@ local L = {
 	["Author"] = "Author",
 	["Category"] = "Category",
 	["Credits"] = "Credits",
-	["Donate"] = "Donate",
 	["Email"] = "Email",
 	["License"] = "License",
 	["Localizations"] = "Languages",
@@ -38,7 +37,6 @@ elseif GAME_LOCALE == "deDE" then
 	L["Author"] = "Autor"
 	L["Category"] = "Kategorie"
 	L["Credits"] = "Ehren"
-	L["Donate"] = "Spenden"
 	L["Email"] = "E-Mail"
 	L["License"] = "Lizenz"
 	L["Localizations"] = "Sprachen"
@@ -51,7 +49,6 @@ elseif GAME_LOCALE == "esES" or GAME_LOCALE == "esMX" then
 	L["Author"] = "Autor"
 	L["Category"] = "Categoría"
 	L["Credits"] = "Créditos"
-	L["Donate"] = "Donar"
 	L["Email"] = "Email"
 	L["License"] = "Licencia"
 	L["Localizations"] = "Idiomas"
@@ -126,8 +123,8 @@ function lib.OpenEditbox(self)
 end
 
 
-local fields = {"Version", "Author", "X-Category", "X-License", "X-Email", "Email", "eMail", "X-Website", "X-Credits", "X-Localizations", "X-Donate"}
-local haseditbox = {["X-Website"] = true, ["X-Email"] = true, ["X-Donate"] = true, ["Email"] = true, ["eMail"] = true}
+local fields = {"Version", "Author", "X-Category", "X-License", "X-Email", "Email", "eMail", "X-Website", "X-Credits", "X-Localizations"}
+local haseditbox = {["X-Website"] = true, ["X-Email"] = true, ["Email"] = true, ["eMail"] = true}
 local fieldLabels = {["eMail"] = "Email"}
 
 local function HideTooltip() GameTooltip:Hide() end
