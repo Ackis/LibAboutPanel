@@ -3,7 +3,7 @@
 ## Notes: Adds an about panel to interface options.
 
 ## Author: Ackis
-## X-Email: ackis AT shaw DOT ca
+## X-Email: ackis AT gmail DOT com
 ## X-Author-Faction: Horde
 ## X-Author-Server: Hyjal US
 ## X-Donate: http://www.curseforge.com/projects/libaboutpanel/#w_donations
