@@ -1,4 +1,4 @@
 -
- type: wiki
- input-file: Main.txt
+ type: markdown
+ input-file: README.md
  output-page: "Main"
