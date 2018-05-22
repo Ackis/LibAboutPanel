@@ -67,6 +67,19 @@ elseif GAME_LOCALE == "zhCN" then
 elseif GAME_LOCALE == "zhTW" then
 	L["About"] = "關於"
 	L["Click and press Ctrl-C to copy"] = "左鍵點擊並按下 Ctrl-C 以複製字串"
+elseif GAME_LOCALE == "frFR" then
+	L["About"] = "À propos"
+	L["Author"] = "Auteur"
+	L["Category"] = "Catégorie"
+	L["Credits"] = "Crédits"
+	L["Email"] = "Email"
+	L["License"] = "License"
+	L["Localizations"] = "Traduction"
+	L["Version"] = "Version"
+	L["Website"] = "Site"
+	L["Click and press Ctrl-C to copy"] = "Clique puis Ctrl-C pour copier."
+	L["on"] = "sur"
+	L["BugReport"] = "Rapport de bug"
 end
 
 function lib.new(parent, addonname)
