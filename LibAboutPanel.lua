@@ -123,8 +123,8 @@ function lib.OpenEditbox(self)
 end
 
 
-local fields = { "Version", "Author", "X-Category", "X-License", "X-Email", "Email", "eMail", "X-Website", "X-Credits", "X-Localizations" }
-local haseditbox = { ["X-Website"] = true, ["X-Email"] = true, ["Email"] = true, ["eMail"] = true }
+local fields = { "Version", "Author", "X-Category", "X-License", "X-Email", "Email", "eMail", "X-Website", "X-Credits", "X-Localizations", "X-BugReport" }
+local haseditbox = { ["X-Website"] = true, ["X-Email"] = true, ["Email"] = true, ["eMail"] = true, ["x-BugReport"] = true }
 local fieldLabels = { ["eMail"] = "Email" }
 
 local function HideTooltip() GameTooltip:Hide() end
@@ -222,6 +222,8 @@ function lib.OnShow(frame)
 					detail:SetText(val)
 				end
 			elseif field == "X-Website" then
+				detail:SetText((haseditbox[field] and "|cff77ccff" or "") .. gsub(val, "^https?://", ""))
+			elseif field == "X-BugReport" then
 				detail:SetText((haseditbox[field] and "|cff77ccff" or "") .. gsub(val, "^https?://", ""))
 			else
 				detail:SetText((haseditbox[field] and "|cff77ccff" or "") .. val)
