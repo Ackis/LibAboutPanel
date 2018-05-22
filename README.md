@@ -1,11 +1,8 @@
+
 What it does
 ------------
 
-Lib About Panel is a small library which will add an about panel to your
-Blizzard interface options. You can specify whether or not to have the
-panel linked to a main panel, or just have it created separately. It
-will populate the fields of the about panel from the fields located in
-your ToC.
+Lib About Panel is a small library which will add an about panel to your Blizzard interface options. You can specify whether or not to have the panel linked to a main panel, or just have it created separately. It will populate the fields of the about panel from the fields located in your ToC.
 
 Where to get it
 ---------------
@@ -34,44 +31,40 @@ about panel will pull all information from this add-ons ToC.
 
 The ToC fields which the add-on reads are:
 
- `"Notes"`
- `"Version"`
- `"Author"`
- `"X-Author-Faction"`
- `"X-Author-Server"`
- `"X-Category"`
- `"X-License"`
- `"X-Email"`
- `"X-Website"`
- `"X-Credits"`
- `"X-Localizations"`
- `"X-BugReport"`
+ `"Notes"`  
+ `"Version"`  
+ `"Author"`  
+ `"X-Author-Faction"`  
+ `"X-Author-Server"`  
+ `"X-Category"`  
+ `"X-License"`  
+ `"X-Email"`  
+ `"X-Website"`  
+ `"X-Credits"`  
+ `"X-Localizations"`  
+ `"X-BugReport"`  
 
 It will only read fields when they exist, and skip them if they do not exist.
 
 Example Code
 ------------
 
-**ToC File:** <code>
+**ToC File:**
+ `## Title: Alt-Tabber`  
+ `## Notes: Plays a noise when you're alt-tabbed for a ready check (even when sound is turned off)`  
 
-`## Title: Alt-Tabber`
-
-`## Notes: Plays a noise when you're alt-tabbed for a ready check (even when sound is turned off)`
-
-`## Author: Ackis`  
-`## X-Author-Server: Fake Server`  
-`## X-Author-Faction: Horde`  
-`## eMail: Fake e-Mail`  
-`## X-License: MIT modified with notification clause`
-
-`## Interface: 70300`  
-`## Version: 1.2`  
-`## X-Category: Raid`  
-`## X-Localizations: enUS`  
-`## X-Website: `[`http://www.wowwiki.com/AltTabber/`]  
-`## X-Feedback: `[`http://www.curse.com/downloads/details/12774/`]
-
-</code>
+ `## Author: Ackis`  
+ `## X-Author-Server: Fake Server`  
+ `## X-Author-Faction: Horde`  
+ `## eMail: Fake e-Mail`  
+ `## X-License: MIT modified with notification clause`  
+  
+ `## Interface: 70300`  
+ `## Version: 1.2`  
+ `## X-Category: Raid`  
+ `## X-Localizations: enUS`  
+ `## X-Website: `[`http://www.wowwiki.com/AltTabber/`]  
+ `## X-Feedback: `[`http://www.curse.com/downloads/details/12774/`]
 
 **Load the panel in LUA code not attached to anything:**
 
@@ -83,7 +76,6 @@ Example Code
 
 Known Issues
 ------------
-
 All known issues will be kept at the [CurseForge][1] tracker.
 
 Please use the [CurseForge][1] tracker to file bug reports.
