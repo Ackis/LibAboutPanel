@@ -34,9 +34,18 @@ about panel will pull all information from this add-ons ToC.
 
 The ToC fields which the add-on reads are:
 
-`"Notes"` `"Version"` `"Author"` `"X-Author-Faction"`
-`"X-Author-Server"` `"X-Category"` `"X-License"` `"X-Email"`
-`"X-Website"` `"X-Credits"` `"X-Localizations"` `"X-BugReport"`
+`"Notes"`
+`"Version"`
+`"Author"`
+`"X-Author-Faction"`
+`"X-Author-Server"`
+`"X-Category"`
+`"X-License"`
+`"X-Email"`
+`"X-Website"`
+`"X-Credits"`
+`"X-Localizations"`
+`"X-BugReport"`
 
 It will only read fields when they exist, and skip them if they do not
 exist.
