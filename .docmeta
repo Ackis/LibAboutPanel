@@ -1,4 +1,4 @@
 -
  type: wiki
- input-file: Docs/Main.txt
+ input-file: Main.txt
  output-page: "Main"
