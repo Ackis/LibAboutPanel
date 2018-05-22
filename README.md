@@ -50,6 +50,7 @@ Example Code
 ------------
 
 **ToC File:**
+
  `## Title: Alt-Tabber`  
  `## Notes: Plays a noise when you're alt-tabbed for a ready check (even when sound is turned off)`  
 
