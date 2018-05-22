@@ -5,9 +5,6 @@ Lib About Panel is a small library which will add an about panel to your Blizzar
 *[http://wow.curseforge.com/projects/libaboutpanel/files/ CurseForge] - Often Beta quality
 *[http://wow.curse.com/downloads/wow-addons/details/libaboutpanel.aspx Curse] - Most updated stable version
 
-==Donations==
-I have setup a donation site via [http://www.pledgie.com/campaigns/3462 Pledgie].  Feel free to donate if you like this mod.  I have put countless hours of time and effort into it along with many people who have helped me.  I did not write this mod with the intent to make any money from it, I wrote it to help me with some needs that I saw in-game.
-
 ==How to get it to work==
 To create the about panel, just add the following line of code into your mod:
 
@@ -35,7 +32,7 @@ The ToC fields which the add-on reads are:
 "X-Website"
 "X-Credits"
 "X-Localizations"
-"X-Donate"
+"X-BugReport"
 </code>
 
 It will only read fields when they exist, and skip them if they do not exist. 
@@ -48,19 +45,13 @@ It will only read fields when they exist, and skip them if they do not exist.
  ## Notes: Plays a noise when you're alt-tabbed for a ready check (even when sound is turned off)
  
  ## Author: Ackis
- ## X-Author-Server: Azgalor US
+ ## X-Author-Server: Fake Server
  ## X-Author-Faction: Horde
- ## eMail: ackis AT shaw DOT ca
+ ## eMail: Fake e-Mail
  ## X-License: MIT modified with notification clause
- ## X-Donate: Send me UDE Point codes, a Murky Code, or donate a few bucks/hours at your local animal shelter.
  
- ## Interface: 20400
+ ## Interface: 70300
  ## Version: 1.2
- ## X-Revision: Rev: 431
- ## X-Date: $Date: 2008-07-20 14:41:47 -0600 (Sun, 20 Jul 2008) $
- 
- ## X-credits: 
- 
  ## X-Category: Raid
  ## X-Localizations: enUS
  ## X-Website: http://www.wowwiki.com/AltTabber/
@@ -83,6 +74,3 @@ Please use the [http://wow.curseforge.com/projects/libaboutpanel/tickets/ CurseF
 
 == Bug Reporting ==
 Please use the [http://wow.curseforge.com/projects/libaboutpanel/tickets/ CurseForge] tracker to file bug reports.
-
-== Wiki ==
-[http://www.wowwiki.com/LibAboutPanel WoW Wiki]
